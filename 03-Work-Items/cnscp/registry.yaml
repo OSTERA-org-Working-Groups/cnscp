@@ -1,0 +1,18 @@
+name: "Connectivity Naming System using Connection Profiles (CNSCP)"
+number:
+type: TS
+summary: "Specifies the Connectivity Naming System using Connection Profiles, a trust layer through which systems declare capabilities and roles within a governed realm and are matched and bound into connections."
+
+versions:
+  - version: "1.0"
+    started: 2026-11-17
+    approved:
+    published:
+    drafts:
+      - draft: "01"
+        released: 2026-11-17
+        editors:
+          - name: "Anto Budiardjo"
+            affiliation: "Padi, Inc."
+          - name: "Toby Considine"
+            affiliation: "TC9, Inc."
