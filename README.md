@@ -1,15 +1,17 @@
-# [WG_NAME] ([WG_ACRONYM]) Working Group
+# Connectivity Naming System using Connection Profiles (CNSCP) Working Group
 
-This repository holds the work of the OSTERA [WG_NAME] Working Group.
+This repository holds the work of the OSTERA Connectivity Naming System using Connection Profiles Working Group.
 
-* **Chair:** [WG_CHAIR]
-* **Charter:** [WG_CHARTER_URL]
-* **Website:** [https://wg.ostera.org/[WG_ID]/](https://wg.ostera.org/[WG_ID]/)
+* **Chair:** Anto Budiardjo
+* **Charter:** https://github.com/OSTERA-org-Working-Groups/cnscp/blob/main/01-Governance/2026-10-13-wg-cnscp-charter.pdf
+* **Website:** [https://wg.ostera.org/cnscp/](https://wg.ostera.org/cnscp/)
 * **Published documents:** [https://pub.ostera.org/](https://pub.ostera.org/)
 
 ## Purpose and Scope
 
-[WG_SCOPE]
+Identity says who you are. MCP and A2A say how to talk. CNS/CP says whether you may connect, and on what terms.
+
+CNS/CP is a naming and contract layer for connections between systems that were never designed to work together. CNS resolves a name to a system the way DNS resolves a name to a host. A Connection Profile is the named contract behind that name: it defines exactly two roles, provider and consumer, what each side must supply, and the context an interaction has to satisfy before it is permitted. Two parties in different organizations can therefore discover each other, establish that the interaction is allowed, and bind — without a bilateral integration project first. Today that work is done with glue code written once per pair of systems and thrown away when either end changes. CNS/CP standardizes the binding rather than the messages.
 
 ## Repository Layout
 
